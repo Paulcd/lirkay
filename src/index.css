@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Fuentes se cargan en el componente principal vía Google Fonts */
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
