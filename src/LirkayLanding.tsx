@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Menu, X, ChevronRight, Droplets, Wind, Leaf, Mountain, Heart, Globe, Users, ArrowUpRight, 
-  MapPin, Compass, ShieldAlert, Sparkles, Footprints, Info, Download, Copy, Check
+  Menu, X, Droplets, Wind, Leaf, Mountain, Globe, Users, ArrowUpRight, 
+  MapPin, Compass, ShieldAlert, Sparkles, Footprints, Info 
 } from 'lucide-react';
 import { ASSETS } from './assets';
 import Logo from './Logo';
-import { img } from 'framer-motion/client';
 
 // --- DESIGN TOKENS ---
 // Verde petróleo profundo: #003B46
@@ -109,7 +108,6 @@ const ChakanaDivider = () => (
 export default function LirkayLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('all');
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const link = document.createElement('link');
